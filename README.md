@@ -1,5 +1,12 @@
 # WorkFuture 2030 - Global Solution
 ![Logo do Projeto](src/assets/logo.png)
+
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
+![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
+
+
 ## 1. Título e Descrição
 **WorkFuture 2030** é uma plataforma digital inovadora desenvolvida como solução para a Global Solution da FIAP (2024/2025). O projeto visa preparar profissionais para o futuro do trabalho, integrando **Inteligência Artificial**, **Ambientes Imersivos (VR/AR)** e **Aprendizado Contínuo (Upskilling)**, alinhado aos Objetivos de Desenvolvimento Sustentável (ODS) da ONU.
 A aplicação oferece uma experiência Single Page Application (SPA) completa, responsiva e acessível (Dark/Light Mode), conectando usuários a trilhas de carreira emergentes.
@@ -54,7 +61,7 @@ O projeto rodará em http://localhost:5173.
 
 ### Acesso Online
 Acesse a aplicação em produção através da URL (Deploy na Vercel):
-🔗 **[Acesse o Projeto Aqui]([https://global-solution-workfuture.vercel.app/])**
+🔗 **[Acesse o Projeto Aqui](https://global-solution-workfuture.vercel.app/)**
 
 ### Funcionalidades
 * **Home:** Visão geral dos pilares do projeto e cards interativos.
