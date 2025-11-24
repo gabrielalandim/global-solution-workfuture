@@ -1,8 +1,7 @@
 // Configure aqui a URL da sua API Java hospedada
-const API_BASE_URL = "https://sua-api-java-no-render-ou-aws.com/api";
+const API_BASE_URL = "https://workfuture-java-api.onrender.com/";
 
 export const apiService = {
-  // Exemplo de GET para buscar dados do backend
   getJobs: async () => {
     try {
       const response = await fetch(`${API_BASE_URL}/jobs`);
@@ -10,7 +9,6 @@ export const apiService = {
       return await response.json();
     } catch (error) {
       console.error("API Error:", error);
-      // Retorno mockado caso a API Java não esteja online durante o teste local
       return [
         { id: 1, title: "Especialista em Ética de IA", description: "Monitoramento de algoritmos.", impact: "Alto" },
         { id: 2, title: "Gestor de Ambientes Híbridos", description: "Otimização de VR/AR.", impact: "Médio" }
